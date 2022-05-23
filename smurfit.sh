@@ -1,2 +1,2 @@
-cd /home/julian/Quantil/Smurfit/smurfit-HDC
+cd ~/Quantil/Smurfit/smurfit-HDC
 code .
