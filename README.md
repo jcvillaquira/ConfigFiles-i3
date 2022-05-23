@@ -1,10 +1,10 @@
-# VIM Configuration file for VS.
+# VIM Configuration inside VS Code
 ```bash
 :set number
 :set relativenumber
 ```
 
-# VIM Configuration file.
+# VIM Configuration file
 ```bash
 cholorscheme slate
 set ruler
