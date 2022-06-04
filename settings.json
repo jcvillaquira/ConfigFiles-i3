@@ -1,0 +1,12 @@
+{
+    "jupyter.askForKernelRestart": false,
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.productIconTheme": "developer-icons",
+    "vim.useSystemClipboard": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.lineNumbers": "relative",
+    "vim.handleKeys": {
+        "<C-f>": false
+    }
+}
