@@ -271,7 +271,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-exec --no-startup-id xsetroot -solid "#1B2B34"
+exec --no-startup-id xsetroot -solid "#21252B"
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
@@ -331,14 +331,14 @@ bar {
 	strip_workspace_numbers yes
 
     colors {
-        background #1B2B34
-        statusline #F9FAF9
+        background #21252B
+        statusline #FAFAFA
         separator  #454947
 
 #                      border  backgr. text
-        focused_workspace  #FAFAFA #16a085 #FDF6E3
-        active_workspace   #595B5B #1B2B34 #FDF6E3
-        inactive_workspace #595B5B #1B2B34 #FDF6E3
+        focused_workspace  #FAFAFA #1677A0 #FAFAFA
+        active_workspace   #595B5B #21252B #FAFAFA
+        inactive_workspace #595B5B #21252B #FAFAFA
         binding_mode       #16a085 #2C2C2C #F9FAF9
         urgent_workspace   #16a085 #FDF6E3 #E5201D
     }
@@ -349,7 +349,7 @@ bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #16A085
+  client.focused          #556064 #969696 #80FFF9 #FAFAFA
   client.focused_inactive #1B2B34 #2F3D44 #1ABC9C #2F3D44
   client.unfocused        #1B2B34 #2F3D44 #1ABC9C #454948
   client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
@@ -362,7 +362,7 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 7
+gaps inner 5
 gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
